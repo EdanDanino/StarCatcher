@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainmanu"
+    android:orientation="vertical"
+    tools:context="com.example.bro010.starcatcherv3.Scoreboard">
+
+    <TextView
+        android:id="@+id/scoretitle"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:text="scoreboard"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textSize="50sp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="381dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:text="Return"
+        android:textColor="#ffffffff"
+        android:textStyle="bold|italic" />
+
+
+</LinearLayout>
+
